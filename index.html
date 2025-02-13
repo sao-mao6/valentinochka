@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валентинка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card" id="cover-page">
+        <div class="heart">&#10084;</div>
+        <h1>Happy</h1>
+        <h2>Valentine's Day</h2>
+        <button class="open-btn" onclick="openNote()">Відкрити валентинку</button>
+    </div>
+
+    <div class="note" id="note-page">
+        <div class="lined-paper">
+            <p>
+                <span class="dropcap">К</span>оханий, я вітаю тебе із Днем Валентина, з Днем закоханих і просто з нашим днем!!! 
+                <p> На жаль, ми не разом і не можемо повноцінно відсвяткувати цей день, але це лише цього разу. Обіцяю, що наступні будь-які свята будуть незабутні і проведемо ми їх удвох. :> </p> 
+                Памʼятаєш, як я говорила, що Антоніна сказала, що <span class="highlight" onclick="showPopup('love')">перше кохання</span> — це наче перший сніг. 
+                І знаєш, якщо це правда, то нехай цей сніг не тане ніколи. Краще я щоразу грітимуся з тобою у великій кількості одягу та твоїх <span class="highlight" onclick="showPopup('hugs')">обіймах</span>, аніж залишусь без цього першого снігу. 
+                Ти мій <span class="highlight" onclick="showPopup('meaning')">сенс життя</span>. 
+                <p> Я закохалась у тебе ще з того самого дня. Це був наче "дзинь". Чи наче стріла купідона, яка з'єднала наші серця. Покохала тебе по-справжнбому не тому, що мені була потрібна людина аби не відчувати самотність чи справлятись із проблемами. А тому що побачивши тебе, зрозуміла - цю людину я хочу бачити у своєму майбутньому, у своєму життя, щодня і щоночі. Я хотіла щоб, можливо і не в найкращому, але моєму світі був такий промінчик світла та надії на кшталт тебе, любий.   
+                Моя мрія, щастя, мій спокійний сон. Ти моє все, коханий, і я кохатиму тебе вічно. </p>
+                <p> З Днем Валентина ღ </p> 
+
+                 <div class="text-left" >
+                Твоя кохана дівчина 
+            </div>
+            
+            </p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">×</span>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
