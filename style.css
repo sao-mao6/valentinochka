@@ -101,3 +101,11 @@ body, html {
     color: #8B0000;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    background: #8B0000;
+    height: 100vh;
+    overflow: auto; 
+}
